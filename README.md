@@ -1,4 +1,4 @@
-ore Competencies
+Core Competencies
 Project Planning & Scheduling
 Billing & Cost Control
 BOQ Mapping & PMS Monitoring
