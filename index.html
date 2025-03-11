@@ -1,108 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gugan S - Planning Engineer</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-        text-align: center;
-      }
-      header {
-        background: #005792;
-        color: white;
-        padding: 20px;
-      }
-      nav ul {
-        list-style: none;
-        padding: 0;
-      }
-      nav ul li {
-        display: inline;
-        margin: 0 15px;
-      }
-      nav ul li a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      section {
-        padding: 40px;
-        background: white;
-        margin: 20px auto;
-        width: 80%;
-        border-radius: 8px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-      }
-      footer {
-        background: #005792;
-        color: white;
-        padding: 10px;
-      }
-      .network-image {
-        width: 100%;
-        height: 300px;
-        background: url("https://source.unsplash.com/1600x900/?network,technology")
-          no-repeat center center;
-        background-size: cover;
-      }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        header {
+            background: #005792;
+            color: white;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            background: white;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s ease-in-out forwards;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        footer {
+            background: #005792;
+            color: white;
+            padding: 10px;
+        }
+        .network-image {
+            width: 100%;
+            height: 300px;
+            background: url('https://source.unsplash.com/1600x900/?network,technology') no-repeat center center;
+            background-size: cover;
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <header>
-      <h1>Gugan S</h1>
-      <p>Planning Engineer</p>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+        <h1>Gugan S</h1>
+        <p>Planning Engineer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#competencies">Core Competencies</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
+    
     <div class="network-image"></div>
-
+    
     <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am Gugan S, a dedicated Planning Engineer with experience in project
-        scheduling, resource management, and efficiency optimization.
-      </p>
+        <h2>About Me</h2>
+        <p>My name is Gugan, a Planning Engineer with 7 years of experience, managing multi-million Saudi Riyal projects across construction and infrastructure. 
+            Proficient in Primavera P6 scheduling, BOQ mapping, cost control, risk management, and EOT claims. 
+            Expertise in progress monitoring, cash flow analysis, stakeholder coordination, and contract management, ensuring timely and cost-effective project execution.</p>
     </section>
-
+    
+    <section id="competencies">
+        <h2>Core Competencies</h2>
+        <ul>
+            <li>Project Planning & Scheduling</li>
+            <li>Billing & Cost Control</li>
+            <li>BOQ Mapping & PMS Monitoring</li>
+            <li>Cash Flow Analysis</li>
+            <li>Risk Management & Resource Management</li>
+            <li>Critical Path Analysis & Delay Analysis</li>
+            <li>Material Management & Stakeholder Communication</li>
+            <li>Reporting & Meeting Coordination</li>
+        </ul>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <p><strong>Project Management Software:</strong> Primavera P6, Power BI, Excel, AutoCAD</p>
+        <p><strong>Other Software:</strong> MS Word, PowerPoint</p>
+        <p><strong>Project Management Areas:</strong> EOT & Delay Analysis, Progress Dashboard, Resource Management, Risk Management</p>
+    </section>
+    
     <section id="experience">
-      <h2>Experience</h2>
-      <p><strong>Company Name</strong> - Planning Engineer (Year-Present)</p>
-      <p>
-        Responsibilities include project planning, timeline management, and
-        coordinating with cross-functional teams.
-      </p>
+        <h2>Experience</h2>
+        <p>Worked with renowned companies such as:</p>
+        <ul>
+            <li>L&T Construction</li>
+            <li>Indian Railways</li>
+            <li>Ministry of Housing Urban</li>
+            <li>Vikran Engineering Limited</li>
+            <li>CEID Consultant Engineering</li>
+            <li>Madhya Pradesh Metro Corporation</li>
+            <li>Technical Development Company for Contracting</li>
+            <li>Royal Commission of Jubail and Yanbu</li>
+        </ul>
+        <p>Consultants:</p>
+        <ul>
+            <li>Saudi Arabian Bechtel Company</li>
+            <li>DB Engineering and Consultant</li>
+            <li>FEDO</li>
+        </ul>
     </section>
-
+    
     <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>Project 1 - Construction Planning & Optimization</li>
-        <li>Project 2 - Risk Management in Infrastructure Projects</li>
-        <li>Project 3 - Resource Allocation Strategies</li>
-      </ul>
+        <h2>Projects</h2>
+        <ul>
+            <li>Smart City Development</li>
+            <li>Biogas Construction</li>
+            <li>Railway and Metro Electrification</li>
+            <li>Metro Construction</li>
+            <li>MEP Projects</li>
+            <li>Smart Meter Installation</li>
+            <li>Traction Substation 33/11KV Project</li>
+            <li>Construction and Road Project</li>
+        </ul>
     </section>
-
+    
     <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:gugan.s@email.com">gugan.s@email.com</a></p>
-      <p>LinkedIn: <a href="#">linkedin.com/in/gugan-s</a></p>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:gugan.s@email.com">gugan.s@email.com</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/gugan-s</a></p>
     </section>
-
+    
     <footer>
-      <p>&copy; 2025 Gugan S. All Rights Reserved.</p>
+        <p>&copy; 2025 Gugan S. All Rights Reserved.</p>
     </footer>
-  </body>
+</body>
 </html>
